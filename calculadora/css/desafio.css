@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgb(207, 174, 226);
+  font-family: "Tinos", sans-serif;
+  color: #9509f3;
+}
+
+.cabecalho {
+  color: #4d44af;
+  height: auto;
+  padding: 10rem 10rem;
+  margin-top: -100px;
+  margin-bottom: -100px;
+  margin-right: 150px;
+  background: url("../img/kyubey\ \(1\).gif") no-repeat center right;
+  background-size: 200px;
+  background-attachment: scroll;
+}
+
+.rodape {
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  color: #ae1df7;
+  background-color: #dfcae2;
+  padding: 1rem 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
